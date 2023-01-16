@@ -1,0 +1,100 @@
+.navbarWrap{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.navbar{
+    width: 1440px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 30% 70%;
+}
+
+.navbarA{
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-template-columns: 20% 20% 20% 25% 15%;
+}
+
+.navbar .divImg{
+    justify-self: start;
+    margin-left: 25px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.imgNike{
+    height: 40px;
+}
+
+.navbar .iconCart{
+    height: 25px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.input{
+    width: 160px;
+    height: 36px;
+    position: relative;
+}
+.input input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-size: 1em;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input svg{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menuBar{
+    height: 40px;
+    display: none;
+    margin-right: 30px;
+}
+
+.menuBar svg{
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1100px){
+    .input{
+        display: none;
+    }
+
+    .navbarA{
+        display: none;
+    }
+
+    .menuBar{
+        display: block;
+    }
+
+    .navbar{
+        justify-items: end;
+    }
+}

@@ -1,0 +1,103 @@
+.productCart{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.imageProductCart{
+    flex-direction: column;
+}
+
+.imageProductCart img{
+    margin: 10px;
+    width: 45%;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+}
+
+.productTextA{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.sizeWrap{
+    margin-top: 60px;
+}
+
+.sizeWrapButton{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.sizeWrapButton button{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid #9e9e9e;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sizeWrapButton button:hover {
+    border: 2px solid #000000;
+}
+
+.addCart{
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.addCart:active{
+    scale: 0.97;
+}
+
+.productCart p{
+    font-size: 1.2em;
+}
+
+.b{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.productTextNone{
+    display: none;
+}
+
+.c{
+    width: 100%;
+}
+
+.c img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.xe{
+    display: none;
+}
+
+.x{
+    font-size: 2em;
+    font-weight: bolder;
+    right: 40px;
+    top: 40px;
+    position: fixed;
+    display: block;
+    cursor: pointer;
+}
